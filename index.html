@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineEBAC</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <div class="navbar navbar-expand-lg ">
+            <div class="container">
+                <h1>CineEBAC</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#filmes">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#catalogo">Catalogo</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="filmes">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/Barbie.jpg" alt="Barbie">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/Oppenheimer.jpeg" alt="Oppenheimer">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/besouroAzul.jpeg" alt="Besouro Azul">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo">
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <h2>Catalogo</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header text-bg-dark">
+                                Cabecalho do header
+                            </div>
+                            <img src="./images/Barbie2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Barbie</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dignissimos voluptates facilis fugit blanditiis suscipit perferendis. Obcaecati quis veniam sed, debitis illum esse numquam doloremque? Commodi odio minima qui hic?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header text-bg-dark">
+                                Cabecalho do header
+                            </div>
+                            <img src="./images/oppenheimer2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Oppenheimer</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dignissimos voluptates facilis fugit blanditiis suscipit perferendis. Obcaecati quis veniam sed, debitis illum esse numquam doloremque? Commodi odio minima qui hic?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header text-bg-dark">
+                                Cabecalho do header
+                            </div>
+                            <img src="./images/besouroAzul2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Besouro azul</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dignissimos voluptates facilis fugit blanditiis suscipit perferendis. Obcaecati quis veniam sed, debitis illum esse numquam doloremque? Commodi odio minima qui hic?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
